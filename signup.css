@@ -1,0 +1,108 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(135deg, #FFAFBD, #FFC3A0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #888;
+    box-shadow: 0 0 8px rgba(136, 136, 136, 0.4);
+}
+
+/* Dropdown Styling */
+
+.form-control.selectpicker {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.form-control.selectpicker:focus {
+    outline: none;
+}
+
+.form-control.selectpicker option {
+    background-color: #fff;
+    color: #555;
+}
+
+/* Submit Button Styling */
+
+.btn-primary {
+    background-color: #FFAFBD;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #FFC3A0;
+}
+
+/* Error Message Styling */
+
+.alert {
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #3c763d;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #a94442;
+}
